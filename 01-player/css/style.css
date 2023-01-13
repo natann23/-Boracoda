@@ -1,0 +1,45 @@
+*{
+
+        margin: 0;
+        padding: 0; box-sizing: border-box;
+}
+
+body{
+    background-color: #0f0d13;
+}
+#app *{
+    border: 1px solid red
+
+}
+
+#app{
+display: grid;
+grid-template-areas:
+'A B ' 'A C';
+
+gap: 30px;
+}
+
+#player-1{
+    grid-area: A;
+    padding:  50px  38px ;
+}
+#player-1{
+    width: 190px ;
+    height: 190px ;
+}
+
+#palyer-2{
+    grid-area: B;
+}
+
+#player-3{
+grid-area: C;
+
+}
+
+.player{
+background-color: #2A2141;
+padding: 28px;
+
+}
